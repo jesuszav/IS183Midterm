@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JesusZavala - IS183 Midterm</title>
+
+    <style>
+            * {
+              margin: 0px;
+              padding: 0px;
+              position: relative;
+            }
+        
+            p {
+              margin: 15px auto 20px;
+            }
+        
+            body,
+            html {
+              width: 100vw;
+              height: 100vh;
+            }
+        
+            h2 {
+              font-size: 18px;
+              font-weight: bold;
+            }
+        
+            .box-shadow {
+              -webkit-box-shadow: -1px 7px 23px -10px rgba(0, 0, 0, 0.75);
+              -moz-box-shadow: -1px 7px 23px -10px rgba(0, 0, 0, 0.75);
+              box-shadow: -1px 7px 23px -10px rgba(0, 0, 0, 0.75);
+            }
+        
+            .main-container-grid {
+              display: grid;
+              grid-template-rows: 1fr 13fr 1fr;
+              height: 100%;
+              grid-row-gap: 1em;
+            }
+        
+            .r1,
+            .r3 {
+              display: grid;
+              background-color: #9BC1BC;
+              padding: 1em;
+              align-items: center;
+             
+            }
+        
+            .r3 {
+              text-align: center;
+            }
+        
+            .r2 {
+              height: 100%;
+              background-color: #F4F1BB;
+            }
+        
+            .c2 {
+              padding: 40px 20%;
+              height: 100%;
+            }
+        
+        
+            .back-button {
+              padding: 7px 16px;
+              background-color: #9BC1BC;
+              float: right;
+              margin-bottom: 15px;
+              color: white;
+              /* z-index is added because without it button can is only clickable in certain aread, usually the bottom half */
+              z-index: 1;
+              position: relative;
+        
+            }
+        
+            .back-button:hover {
+              background-color: #E6EBE0;
+            }
+            .r1 > img {
+              width: 130px;
+              height: 130px;
+            }
+          </style>
+</head>
+<body class="main-container-grid">
+
+</body>
+<div class="r1 box-shadow">
+        <img class="box-shadow" src="./img/sm_logo.jpg">
+        <h2>Gourmet Coffee & Tea</h2>
+      </div>
+      <div class="r2">
+        <div class="c2">
+          <a href="./index.html" class="back-button">Button Name(Back)</a>
+          <h2>About Gourmet Coffee & Tea</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+            a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+            of Lorem Ipsum.</p>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+            a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+            of Lorem Ipsum.</p>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+            a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+            of Lorem Ipsum.</p>
+    
+        </div>
+      </div>
+      <div class="r3">
+            Copyright (C) 2019. For educational purpose only! No orders shall be fulfilled
+      </div>
+</html>
